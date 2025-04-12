@@ -1,7 +1,7 @@
 {
-	"name": "@tfpkgr/npm-template",
+	"name": "@tfpkgr/wait",
 	"version": "0.0.0",
-	"description": "Package description",
+	"description": "A lightweight utility for handling single or multiple promises with enhanced error capturing and cleaner async flow.",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
 	"types": "dist/index.d.mts",
@@ -14,11 +14,11 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/tfpkgr/npm-template.git"
+		"url": "git+https://github.com/tfpkgr/wait.git"
 	},
 	"keywords": [
 		"tfpkgr",
-		"npm-template"
+		"wait"
 	],
 	"author": "tfpkgr",
 	"publishConfig": {
@@ -36,13 +36,16 @@
 	],
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/tfpkgr/npm-template/issues"
+		"url": "https://github.com/tfpkgr/wait/issues"
 	},
-	"homepage": "https://github.com/tfpkgr/npm-template#readme",
+	"homepage": "https://github.com/tfpkgr/wait#readme",
 	"devDependencies": {
 		"@types/node": "^22.14.1",
 		"gts": "^6.0.2",
 		"tsup": "^8.4.0",
 		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"@tfpkgr/logger": "^0.0.1"
 	}
 }
